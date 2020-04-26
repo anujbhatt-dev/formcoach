@@ -83,6 +83,7 @@ body{
   justify-content: center;
   font-family: 'Shamber',monospace;
   letter-spacing: 4px;
+  margin-bottom:5%;
 }
 .select-btn{
   display: flex;
