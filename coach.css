@@ -170,7 +170,7 @@ hr{
 #address{
   background: none;
   width: 100%;
-  border-width: 0.4px;
+  border-width: 2px;
   border-radius: 5px;
   height: 50px;
   border-color: grey;
@@ -217,7 +217,7 @@ hr{
 #pin,#ins{
   background: none;
   width: 100%;
-  border-width: 0.4px;
+  border-width: 2px;
   border-radius: 5px;
   border-color: grey;
   height:40px;
