@@ -8,9 +8,6 @@ body{
   height: 100vh;
   margin: 0;
 }
-input{
-  color:white;
-}
 .h1 {
   text-align: center;
   margin: 20px auto;
@@ -19,6 +16,9 @@ input{
   animation: test2 3s infinite;
   animation-timing-function: linear;
   display: table;
+}
+input{
+  color:white;
 }
 @keyframes test2 {
   0% {
@@ -86,7 +86,7 @@ input{
   justify-content: center;
   font-family: 'Shamber',monospace;
   letter-spacing: 4px;
-  margin-bottom:5%;
+  margin-bottom: 10%;
 }
 .select-btn{
   display: flex;
@@ -153,7 +153,7 @@ hr{
   border-color: white;
   border: 1px 0 0 0;
   border-style: dashed;
-  width: 30%;
+  width: 90%;
   margin: 1% auto;
 }
 .sp{
@@ -167,7 +167,7 @@ hr{
   text-align: center;
   margin-top: 5%;
 }
-#insta{
+#address{
   background: none;
   width: 100%;
   border-width: 0.4px;
@@ -181,7 +181,7 @@ hr{
   justify-content: center;
 }
 .btn{
-    margin: 10% auto;
+    margin:auto;
     margin-top: 0;
 }
 
@@ -206,25 +206,29 @@ hr{
 }
 .pinnlov{
   display: flex;
-  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  flex-basis: 25%;
+  /* flex-flow: row; */
   margin-top: 1%;
   align-items: baseline;
 }
 
-#pin{
+#pin,#ins{
   background: none;
   width: 100%;
   border-width: 0.4px;
   border-radius: 5px;
-  border-color: grey
-  height:50px;
+  border-color: grey;
+  height:40px;
+  width:100%;
 }
 
 @media screen and (min-width:1000px) {
   .mediaRadio{
     display: flex;
     justify-content: flex-start;
-    max-width: 75%;
+    max-width: 65%;
    }
    .radioCheck{
      margin-top: 1%;
@@ -237,7 +241,7 @@ hr{
      text-align:left;
     }
     .custom-file-label{
-      width: 55%;
+      width: 100%;
     }
     .mediaRadio{
       margin-top: 1%;
@@ -245,20 +249,14 @@ hr{
     .con-out{
       width:50vw;
     }
-    /* textarea{
-        width: 50%;
-    } */
-    legend{
-      font-size: 20px;
-    }
-    .radio1{
+      .radio1{
       margin-bottom: 2%;
     }
     .d{
       display: flex;
       max-width: 90%;
     }
-    #insta{
+    #address{
       width: 50%;
     }
     .last{
@@ -268,12 +266,17 @@ hr{
     }
     .btn{
       height: 50%;
-
-    }
+      }
     ::placeholder{
       padding-left: 5px;
     }
     .tnc{
       margin-top: 1%;
+    }
+    #desbox{
+       width: 22rem;
+    }
+    #achievements{
+      width: 22rem;
     }
 }
